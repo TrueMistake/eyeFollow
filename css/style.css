@@ -1,0 +1,63 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    background: #000;
+}
+.eyes{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.eye{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 200px;
+    height: 100px;
+}
+.eye-roll{
+    border-radius: 50%;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: center left;
+    transform: translateX(calc(-50% - 35px));
+}
+.eye-1{
+    top: 10%;
+    left: 30%;
+}
+.eye-2{
+    top: 40%;
+    left: 80%;
+}
+.eye-3{
+    top: 20%;
+    left: 40%;
+}
+.eye-4{
+    top: 70%;
+    left: 10%;
+}
+.eye-5{
+    top: 30%;
+    left: 60%;
+}
+.eye-6{
+    top: 50%;
+    left: 40%;
+}
+.eye-7{
+    top: 80%;
+    left: 20%;
+}
